@@ -168,7 +168,7 @@ Instructions:
 Replace your_jwt_secret_key with a secure secret string.
 Use Gmail App Password for EMAIL_PASS (do not use your real password).
 Make sure MongoDB is running locally.
-### 4️⃣ Run Project
+4️⃣ Run Project
 Start Backend
 cd server
 nodemon server.js
@@ -181,6 +181,6 @@ Ensure MongoDB service is running locally
 Install nodemon globally if not already installed:
 npm install -g nodemon
 
-### 👩‍💻 Developed By
+👩‍💻 Developed By
 
 Sehrish Deen
