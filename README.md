@@ -93,6 +93,7 @@ The project is divided into two main directories:
 
 ### Progress Tracking
 ![Progress](./screenshots/progress.png)
+![Progress](./screenshots/log weight.png)
 
 ### Workout Page
 ![Workout](./screenshots/workout.png)
