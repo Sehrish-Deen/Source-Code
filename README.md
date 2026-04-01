@@ -81,9 +81,9 @@ This application helps users track workouts, monitor nutrition, and visualize fi
 
 ### 🔐 Authentication
 ![Register](./screenshots/registrationform.png)
-![Verified Email](./screenshots/verifiedemail.png)
-![Email](./screenshots/email.png)
 ![Login](./screenshots/login.png)
+![Email](./screenshots/email.png)
+![Verified Email](./screenshots/verifiedemail.png)
 ![Forgot Password](./screenshots/forgotpassword.png)
 ![Reset Password](./screenshots/reset%20pass.png)
 ![Pass Reset](./screenshots/pass%20reset.png)
