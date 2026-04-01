@@ -89,7 +89,6 @@ This application helps users track workouts, monitor nutrition, and visualize fi
 ![Reset Password](./screenshots/reset%20pass.png)
 ![Pass Reset](./screenshots/pass%20reset.png)
 
-
 ---
 
 ### 🖥 Dashboard
@@ -149,11 +148,26 @@ cd server
 npm install
 3️⃣ Environment Variables
 
-Create .env file inside server/ folder:
+Note: .env file is ignored in .gitignore for security reasons.
+After cloning the project, create a .env file inside the server/ folder with the following variables:
 
-PORT=5000
-MONGO_URI=your_mongodb_connection
-JWT_SECRET=your_secret_key
+PORT=3000
+MONGO_URI=mongodb://127.0.0.1:27017/fitnessTrackerDB
+JWT_SECRET=your_jwt_secret_key
+JWT_EXPIRE=7d
+NODE_ENV=development
+
+# Email Configuration
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+
+FRONTEND_URL=http://localhost:8080
+
+Instructions:
+
+Replace your_jwt_secret_key with a secure secret string.
+Use Gmail App Password for EMAIL_PASS (do not use your real password).
+Make sure MongoDB is running locally.
 4️⃣ Run Project
 Start Backend
 cd server
@@ -163,14 +177,14 @@ cd client
 npm run dev
 ⚠️ Important Notes
 .env and node_modules are ignored in .gitignore
-Ensure MongoDB is running
-Install nodemon if not installed:
+Ensure MongoDB service is running locally
+Install nodemon globally if not already installed:
 npm install -g nodemon
 🔮 Future Improvements
 AI fitness recommendations
-Social features
-Mobile app
-Advanced analytics
+Social features (followers, sharing progress)
+Mobile application version
+Advanced analytics and reports
 👩‍💻 Developed By
 
 Sehrish Deen
