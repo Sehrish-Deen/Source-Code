@@ -87,7 +87,9 @@ The project is divided into two main directories:
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](./screenshots/dashboard1.png)
+![Dashboard](./screenshots/Dashboard1.png)
+![Dashboard](./screenshots/Dashboard2.png)
+![Dashboard](./screenshots/Dashboard3.png)
 
 ### Progress Tracking
 ![Progress](./screenshots/progress.png)
