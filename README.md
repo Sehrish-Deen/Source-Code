@@ -133,11 +133,8 @@ This application helps users track workouts, monitor nutrition, and visualize fi
 ![Edited](./screenshots/edited.png)
 
 ---
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone Repository
-```bash
+⚙️ Installation & Setup
+1️⃣ Clone Repository
 git clone https://github.com/Sehrish-Deen/Source-Code.git
 2️⃣ Install Dependencies
 Client
@@ -149,7 +146,8 @@ npm install
 3️⃣ Environment Variables
 
 Note: .env file is ignored in .gitignore for security reasons.
-After cloning the project, create a .env file inside the server/ folder with the following variables:
+
+After cloning the project, create a .env file inside the server/ folder with the following:
 
 PORT=3000
 MONGO_URI=mongodb://127.0.0.1:27017/fitnessTrackerDB
@@ -180,7 +178,6 @@ npm run dev
 Ensure MongoDB service is running locally
 Install nodemon globally if not already installed:
 npm install -g nodemon
-
-##  Developed by
+👩‍💻 Developed By
 
 Sehrish Deen
