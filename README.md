@@ -180,11 +180,7 @@ npm run dev
 Ensure MongoDB service is running locally
 Install nodemon globally if not already installed:
 npm install -g nodemon
-🔮 Future Improvements
-AI fitness recommendations
-Social features (followers, sharing progress)
-Mobile application version
-Advanced analytics and reports
+
 👩‍💻 Developed By
 
 Sehrish Deen
