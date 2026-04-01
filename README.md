@@ -1,13 +1,11 @@
 # 🏋️ Fitness Tracker Application (MERN Stack)
 
 A full-stack Fitness Tracker Web Application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).  
-This application allows users to track workouts, monitor nutrition, and visualize fitness progress over time.
+This application helps users track workouts, monitor nutrition, and visualize fitness progress over time.
 
 ---
 
 ## 📌 Project Structure
-
-The project is divided into two main directories:
 
 - **client/** → Frontend (React.js)
 - **server/** → Backend (Node.js, Express.js, MongoDB)
@@ -28,7 +26,7 @@ The project is divided into two main directories:
 - MongoDB (Mongoose)
 
 ### Tools
-- Nodemon (for automatic server restart)
+- Nodemon
 - Git & GitHub
 
 ---
@@ -36,70 +34,103 @@ The project is divided into two main directories:
 ## ✨ Features
 
 ### 👤 User Management
-- User Registration with profile details
-- Secure Login Authentication
-- Profile Update (name, email, profile picture)
+- User Registration & Login
+- Email Verification
+- Forgot & Reset Password
+- Profile Management
 
 ---
 
 ### 🏋️ Fitness Tracking
 
 #### Workout Tracking
-- Create, edit, and delete workout routines
-- Track sets, reps, weights, and notes
-- Categorize workouts (e.g., strength, cardio)
+- Add, Edit, Delete workouts
+- Track sets, reps, weights
+- Categorize workouts
 
 #### Nutrition Tracking
-- Log daily meals (breakfast, lunch, dinner, snacks)
-- Track calories and macronutrients
+- Log meals and calories
+- Track macros
 
 #### Progress Tracking
-- Track weight and body measurements
-- Record performance metrics
-- Visualize progress with charts
+- Track weight & measurements
+- Performance tracking
+- Graph visualization
 
 ---
 
 ### 📊 Dashboard & Analytics
-- Personalized dashboard overview
-- Workout history and analytics
-- Nutrition insights (calories & macros)
+- Personalized dashboard
+- Workout & nutrition analytics
+- Charts and reports
 
 ---
 
-### 🔔 Notifications & Alerts
-- Workout reminders
-- Goal achievement notifications
-
----
-
-### 🔍 Search & Filtering
-- Search workouts and nutrition entries
-- Apply filters for better results
+### 🔔 Notifications
+- Alerts & reminders
+- Activity notifications
 
 ---
 
 ### 📱 Responsive Design
-- Fully responsive across mobile, tablet, and desktop
+- Mobile-friendly UI
 
 ---
 
 ## 📸 Screenshots
 
-### Dashboard
+### 🖥 Dashboard
 ![Dashboard](./screenshots/Dashboard1.png)
 ![Dashboard](./screenshots/Dashboard2.png)
 ![Dashboard](./screenshots/Dashboard3.png)
 
-### Progress Tracking
+---
+
+### 🔐 Authentication
+![Login](./screenshots/login.png)
+![Register](./screenshots/registrationform.png)
+![Forgot Password](./screenshots/forgotpassword.png)
+![Reset Password](./screenshots/reset%20pass.png)
+![Pass Reset](./screenshots/pass%20reset.png)
+![Email](./screenshots/email.png)
+![Check Email](./screenshots/checkemail.png)
+![Verified Email](./screenshots/verifiedemail.png)
+
+---
+
+### 👤 Profile & Settings
+![Edit Profile](./screenshots/editprofile.png)
+![Settings](./screenshots/Settings.png)
+
+---
+
+### 📊 Progress & Analytics
 ![Progress](./screenshots/progress.png)
-![Progress](./screenshots/log weight.png)
+![Weight](./screenshots/weight.png)
+![Log Weight](./screenshots/logweight.png)
+![Measurement](./screenshots/measurement.png)
+![Performance](./screenshots/performance.png)
+![Analytics](./screenshots/analytics.png)
+![Chart](./screenshots/chart.png)
 
-### Workout Page
+---
+
+### 🏋️ Workouts & Nutrition
 ![Workout](./screenshots/workout.png)
+![Workouts](./screenshots/workouts.png)
+![Nutrition](./screenshots/nutrition.png)
 
-### Authentication (Login / Signup)
-![Auth](./screenshots/auth.png)
+---
+
+### 📄 Reports & Notifications
+![Report](./screenshots/report.png)
+![Fitness Report](./screenshots/fitreport.png)
+![Notification](./screenshots/notification.png)
+
+---
+
+### ✏️ Other
+![Edited](./screenshots/edited.png)
 
 ---
 
@@ -109,55 +140,36 @@ The project is divided into two main directories:
 ```bash
 git clone https://github.com/Sehrish-Deen/Source-Code.git
 2️⃣ Install Dependencies
-Client (Frontend)
+Client
 cd client
 npm install
-Server (Backend)
+Server
 cd server
 npm install
 3️⃣ Environment Variables
 
-Create a .env file inside the server/ folder:
+Create .env file inside server/ folder:
 
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
-4️⃣ Run the Project
-Start Backend Server
+4️⃣ Run Project
+Start Backend
 cd server
 nodemon server.js
-Start Frontend Client
+Start Frontend
 cd client
 npm run dev
 ⚠️ Important Notes
-.env and node_modules are ignored using .gitignore
-Make sure MongoDB is running before starting the server
-Install nodemon globally if not installed:
+.env and node_modules are ignored in .gitignore
+Ensure MongoDB is running
+Install nodemon if not installed:
 npm install -g nodemon
-📁 Folder Structure
-Source-Code/
-│
-├── client/
-│   ├── src/
-│   ├── components/
-│   └── pages/
-│
-├── server/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   └── server.js
-│
-├── screenshots/
-│   ├── dashboard.png
-│   ├── progress.png
-│   ├── workout.png
-│   └── auth.png
 🔮 Future Improvements
-AI-based fitness recommendations
-Social features (followers, sharing progress)
-Mobile application version
-Advanced analytics and reports
+AI fitness recommendations
+Social features
+Mobile app
+Advanced analytics
 👩‍💻 Developed By
 
 Sehrish Deen
