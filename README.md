@@ -181,6 +181,6 @@ Ensure MongoDB service is running locally
 Install nodemon globally if not already installed:
 npm install -g nodemon
 
-👩‍💻 Developed By
+##  Developed by
 
 Sehrish Deen
